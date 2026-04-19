@@ -35,7 +35,7 @@ export default async function handler(req, res) {
             type: isSlide ? "slide" : "video",
             title: d.title || "Lumina Media",
             author: d.author?.nickname || "Unknown",
-            media: isSlide ? d.images : [d.hdplay || d.play],
+            media: isSlide ? d.images : [d.play || d.hdplay], 
             music: d.music || null,
             cover: d.cover || null,
             stats: {
@@ -55,4 +55,4 @@ export default async function handler(req, res) {
             error_detail: error.message
         });
     }
-          }
+}
