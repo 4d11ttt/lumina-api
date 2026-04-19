@@ -46,7 +46,9 @@ Mengambil data media tanpa *watermark* dari tautan TikTok.
       "shares": 5
     }
   }
-  🛠️ Panduan Deployment ke Vercel
+
+  
+🛠️ Panduan Deployment ke Vercel
 Pastikan Anda telah membuat repositori di GitHub dan mengunggah semua file proyek ini.
 Buka dashboard Vercel.
 Klik Add New Project dan import repositori GitHub ini.
